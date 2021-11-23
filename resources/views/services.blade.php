@@ -50,7 +50,7 @@
 
                 <div class="p-4 w-full md:w-6/12 lg:w-4/12">
                     <div class="bg-white flex flex-col h-full shadow-lg">
-                        <img src="storage/{{$servicio->url_img}}" class="w-full">
+                        <img src="storage/{{$servicio->url_img}}" class="h-64">
                         <div class="p-4 text-lg">
                             <h5 class="font-bold leading-tight text-xl text-center block mb-2 text-blue-500">
                                 {{$servicio->nombre_servicio}}</h5>
