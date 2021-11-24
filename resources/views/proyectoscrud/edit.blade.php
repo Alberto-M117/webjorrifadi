@@ -39,7 +39,7 @@
         <div class="mb-3 ">
             <label for="servicio2" class="form-label fw-bold text-primary">Servicio 2:</label>
             <input type="text" name="servicio2" id="servicio2" class="form-control"
-                value="{{$datosproyectos->servicio1}}">
+                value="{{$datosproyectos->servicio2}}">
         </div>
     </div>
     <br>
@@ -47,7 +47,7 @@
         <div class="mb-3 ">
             <label for="servicio3" class="form-label fw-bold text-primary">Servicio 3:</label>
             <input type="text" name="servicio3" id="servicio3" class="form-control"
-                value="{{$datosproyectos->servicio1}}">
+                value="{{$datosproyectos->servicio3}}">
         </div>
     </div>
     <br>
@@ -55,7 +55,7 @@
         <div class="mb-3 ">
             <label for="servicio4" class="form-label fw-bold text-primary">Servicio 4:</label>
             <input type="text" name="servicio4" id="servicio4" class="form-control"
-                value="{{$datosproyectos->servicio1}}">
+                value="{{$datosproyectos->servicio4}}">
         </div>
     </div>
     <br>
