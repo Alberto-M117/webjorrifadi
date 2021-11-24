@@ -27,7 +27,7 @@
         <tr>
             <td>{{$loop->iteration}}</td>
             <td>{{$proyecto->nombre}}</td>
-            <td><img src="{{ asset('storage'). '/' . $proyecto->url_img}}" class="img-thumbnail" width="200" height="200" ></td>
+            <td><img src="{{ asset('storage'). '/' . $proyecto->url_img}}" class="img-thumbnail" width="800" height="800" ></td>
             <td>{{$proyecto->servicio1}}</td>
             <td>{{$proyecto->servicio2}}</td>
             <td>{{$proyecto->servicio3}}</td>
