@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('title', 'Nosotros')
+@section('title', 'Jorrifadi | Nosotros')
 
 
 @section('content')

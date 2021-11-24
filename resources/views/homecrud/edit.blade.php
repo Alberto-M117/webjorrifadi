@@ -54,28 +54,28 @@
 
     {{-- Actualizacion del Banner de Fondo --}}
 
-    <label for="descripcion1" class="form-label fw-bold text-primary">Slider Inicio:</label>
+    <label for="descripcion1" class="form-label fw-bold text-primary">Fondo Inicio:</label>
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosempresa->imagenbanner}}" class="card-img-top"
-            alt="Imagen del Banner Inicio">
+            alt="Imagen del Fondo Inicio">
         <div class="card-body">
             <input type="file" value="" name="imagenbanner" id="imagenbanner">
         </div>
     </div>
 
-    <label for="descripcion1" class="form-label fw-bold text-primary">Slider Servicios:</label>
+    <label for="descripcion1" class="form-label fw-bold text-primary">Fondo Servicios:</label>
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosempresa->imagenbanner2}}" class="card-img-top"
-            alt="Imagen del Banner Nosotros">
+            alt="Imagen del Fondo Pestaña Servicios">
         <div class="card-body">
             <input type="file" value="" name="imagenbanner2" id="imagenbanner2">
         </div>
     </div>
 
-    <label for="descripcion1" class="form-label fw-bold text-primary">Slider Proyectos:</label>
+    <label for="descripcion1" class="form-label fw-bold text-primary">Fondo Proyectos:</label>
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosempresa->imagenbanner3}}" class="card-img-top"
-            alt="Imagen del Banner Nosotros">
+            alt="Imagen del Fondo Pestaña Proyectos">
         <div class="card-body">
             <input type="file" value="" name="imagenbanner3" id="imagenbanner3">
         </div>
@@ -84,7 +84,7 @@
     <label for="descripcion1" class="form-label fw-bold text-primary">Fondo Contáctanos:</label>
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosempresa->imagenbanner4}}" class="card-img-top"
-            alt="Imagen del Banner Nosotros">
+            alt="Imagen del Fondo Pestaña Contactanos">
         <div class="card-body">
             <input type="file" value="" name="imagenbanner4" id="imagenbanner4">
         </div>

@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', 'Jorrifadi | Dashboard')
 
 @section('content_header')
 <h1>Bienvenido</h1>

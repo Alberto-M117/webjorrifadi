@@ -117,8 +117,7 @@
                     <span class="my-1"><a href="{{route('index')}}"
                             class="text-black  text-md hover:text-yellow-500">Inicio</a></span>
                     <span class="my-1"><a href="{{route('nosotros')}}"
-                            class="text-black  text-md hover:text-yellow-500">¿Quiénes
-                            somos?</a></span>
+                            class="text-black  text-md hover:text-yellow-500">Nosotros</a></span>
                     <span class="my-1"><a href="{{route('servicios')}}"
                             class="text-black  text-md hover:text-yellow-500">Servicios</a></span>
                     <span class="my-1"><a href="{{route('proyectos')}}"
@@ -147,9 +146,6 @@
                     <span class="my-1"><a href="{{route('servicios')}}"
                             class="text-black  text-md hover:text-yellow-500">Servicio de
                             asesoría</a></span>
-                    <span class="my-1"><a href="{{route('servicios')}}"
-                            class="text-black  text-md hover:text-yellow-500">Venta e instalación
-                            de material eléctrico</a></span>
                 </div>
 
 
@@ -166,7 +162,7 @@
                     {{-- Facebook --}}
 
                     <div>
-                    <a href="https://www.facebook.com/Jorrifadi-Instalaciones-y-Proyectos-SA-de-CV-103039931507645/"style="color:black">
+                    <a href="https://www.facebook.com/Jorrifadi-Instalaciones-y-Proyectos-SA-de-CV-103039931507645/" target="_blank" style="color:black">
                     <P class = " fa fa-facebook hover:text-yellow-500" > Facebook </P>
                     </a>
 

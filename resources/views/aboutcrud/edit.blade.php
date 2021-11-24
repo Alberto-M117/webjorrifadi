@@ -43,10 +43,10 @@
 
     {{-- Actualizacion del Banner de Fondo --}}
 
-    <label for="descripcion1" class="form-label fw-bold text-primary">Banner Nosotros:</label>
+    <label for="descripcion1" class="form-label fw-bold text-primary">Fondo Nosotros:</label>
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosnosotros->urlbanner}}" class="card-img-top"
-            alt="Imagen del Banner Nosotros">
+            alt="Imagen del Fondo Pestaña Nosotros">
         <div class="card-body">
             <input type="file" value="" name="urlbanner" id="urlbanner">
         </div>
