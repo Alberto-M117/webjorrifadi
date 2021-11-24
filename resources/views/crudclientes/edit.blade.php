@@ -16,7 +16,7 @@
         <div class="mb-3">
             <label for="nombre_cliente" class="form-label fw-bold text-primary ">Nombre del cliente:</label>
             <input type="text" name="nombre_cliente" id="nombre_cliente" class="form-control"
-                value="{{$datoscliente->nombre_cliente}}">
+                value="{{$datoscliente->nombre_cliente}}" required >
         </div>
     </div>
     <br>
@@ -24,7 +24,7 @@
         <div class="mb-3 ">
             <label for="descripcion" class="form-label fw-bold text-primary">Descripción:</label>
             <input type="text" name="descripcion" id="descripcion" class="form-control"
-                value="{{$datoscliente->descripcion}}">
+                value="{{$datoscliente->descripcion}}" required >
         </div>
     </div>
     <br>
@@ -35,7 +35,7 @@
         <img src="{{ asset('storage'). '/' . $datoscliente->url_imagen}}" class="img-thumbnail"
             alt="Imagen del cliente">
         <div class="card-body">
-            <input type="file" name="url_imagen" id="url_imagen">
+            <input type="file" name="url_imagen" id="url_imagen" required >
         </div>
     </div>
 

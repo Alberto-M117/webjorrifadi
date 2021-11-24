@@ -15,14 +15,14 @@
 
         <div class="mb-3">
             <label for="descripcion" class="form-label fw-bold text-primary ">Descripción:</label>
-            <input type="text" name="descripcion" id="descripcion" class="form-control" value="">
+            <input type="text" name="descripcion" id="descripcion" class="form-control" value="" required >
         </div>
     </div>
     <br>
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="url_img" class="form-label fw-bold text-primary">Imagen:</label>
-            <input type="file" name="url_img" id="url_img" class="form-control" value="">
+            <input type="file" name="url_img" id="url_img" class="form-control" value="" required >
         </div>
     </div>
     <br>
