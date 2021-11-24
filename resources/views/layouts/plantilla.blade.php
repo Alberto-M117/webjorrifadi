@@ -25,7 +25,7 @@
         <div class="flex items-center flex-shrink-0 text-white mr-5">
 
             {{-- Logo --}}
-            <a class="md:py-0" href="/">
+            <a class="md:py-0" href="{{route('index')}}">
                 <img class="h-35 w-60 pl-6 self-center text-black mx-10" src="{{url('images/JORRIFADI_LOGO.png')}}"
                     alt="Logotipo Empresa">
             </a>
@@ -110,7 +110,12 @@
         <div class="sm:flex sm:mt-auto">
             <div class=" mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
 
-
+                <div class="flex flex-col">
+                    <a class="md:py-0" href="{{route('index')}}">
+                        <img class="h-32 mt-12 items-center" src="{{url('images/logo-footer.png')}}"
+                            alt="Logotipo Empresa">
+                    </a>
+                </div>
 
                 <div class="flex flex-col">
                     <span class="font-bold text-blue-800 uppercase mt-4 md:mt-0 mb-2">Nuestra empresa</span>

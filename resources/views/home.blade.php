@@ -418,12 +418,12 @@
       <div class="carousel-inner">
         @forelse ($bannercliente as $item)
         <div class="carousel-item  @if ($loop->index==0) active  @endif">
-          <img class="mx-auto mt-4 h-20 m-10" src="storage/{{$item->url_imagen}}">
+          <img class="mx-auto mt-2 mb-2 h-24" src="storage/{{$item->url_imagen}}">
           <br>
           <br>
           <br>
-          <div class="container">
-            <p class="">{{$item->nombre_cliente}}</p>
+          <div class="container align-content-center mt-2">
+            <p>{{$item->nombre_cliente}}</p>
             <h3>{{$item->descripcion}}</h3>
 
           </div>
