@@ -16,7 +16,7 @@
         <div class="mb-3">
             <label for="nombre_servicio" class="form-label fw-bold text-primary ">Nombre del servicio:</label>
             <input type="text" name="nombre_servicio" id="nombre_servicio" class="form-control"
-                value="{{$datosservicios->nombre_servicio}}">
+                value="{{$datosservicios->nombre_servicio}}" required >
         </div>
     </div>
   
@@ -24,7 +24,7 @@
         <div class="mb-3 ">
 
             <label for="exampleFormControlTextarea1" class="form-label text-primary ">Descripción:</label>
-            <textarea class="form-control text-justify" name="descripcion" id="descripcion" rows="3">{{$datosservicios->descripcion}}</textarea>
+            <textarea class="form-control text-justify" name="descripcion" id="descripcion" rows="3" required >{{$datosservicios->descripcion}}</textarea>
         </div>
     </div>
     <br>
@@ -34,7 +34,7 @@
         <img src="{{ asset('storage'). '/' . $datosservicios->url_icon}}" class="img-thumbnail"
             alt="Icono del servicio">
         <div class="card-body">
-            <input type="file" value="" name="url_icon" id="url_icon">
+            <input type="file" value="" name="url_icon" id="url_icon" required >
         </div>
     </div>
 
@@ -42,7 +42,7 @@
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosservicios->url_img}}" class="card-img-top" alt="Imagen del servicio">
         <div class="card-body">
-            <input type="file" value="" name="url_img" id="url_img">
+            <input type="file" value="" name="url_img" id="url_img" required >
         </div>
     </div>
 

@@ -15,7 +15,7 @@
         <div class="mb-3">
             <label for="descripcion" class="form-label fw-bold text-primary ">Descripción:</label>
             <input type="text" name="descripcion" id="descripcion" class="form-control"
-                value="{{$datosbanner->descripcion}}">
+                value="{{$datosbanner->descripcion}}" required >
         </div>
     </div>
     <br>
@@ -24,7 +24,7 @@
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosbanner->url_img}}" class="card-img-top">
         <div class="card-body">
-            <input type="file" value="" name="url_img" id="url_img">
+            <input type="file" value="" name="url_img" id="url_img" required >
         </div>
     </div>
 
