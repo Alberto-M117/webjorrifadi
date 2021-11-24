@@ -35,7 +35,7 @@
         <img src="{{ asset('storage'). '/' . $datoscliente->url_imagen}}" class="img-thumbnail"
             alt="Imagen del cliente">
         <div class="card-body">
-            <input type="file" name="url_imagen" id="url_imagen" required >
+            <input type="file" name="url_imagen" id="url_imagen"  >
         </div>
     </div>
 

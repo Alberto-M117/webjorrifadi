@@ -23,7 +23,7 @@
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosproyectos->url_img}}" class="card-img-top" alt="Imagen del proyecto" >
         <div class="card-body">
-            <input type="file" value="" name="url_img" id="url_img" required>
+            <input type="file" value="" name="url_img" id="url_img" >
         </div>
     </div>
     <br>

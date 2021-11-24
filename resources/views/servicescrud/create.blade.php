@@ -29,7 +29,7 @@
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="url_icon" class="form-label fw-bold text-primary">Icono:</label>
-            <input type="file" name="url_icon" id="url_icon" class="form-control" value="" required >
+            <input type="file" name="url_icon" id="url_icon" class="form-control" value=""  >
         </div>
     </div>
     <br>

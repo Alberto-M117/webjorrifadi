@@ -21,10 +21,10 @@
     <br>
 
     <label for="url_img" class="form-label fw-bold text-primary">Banner Nosotros:</label>
-    <div class="card" style="width: 30rem;">
-        <img src="{{ asset('storage'). '/' . $datosbanner->url_img}}" class="card-img-top">
+    <div class="container ml-1" >
+        <img src="{{ asset('storage'). '/' . $datosbanner->url_img}}"  class="imgcrud img-thumbnail" width="400" height="400">
         <div class="card-body">
-            <input type="file" value="" name="url_img" id="url_img" required >
+            <input type="file" value="" name="url_img" id="url_img" >
         </div>
     </div>
 

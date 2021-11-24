@@ -24,7 +24,7 @@
         <tr>
             <td>{{$loop->iteration}}</td>
             <td>{{$banne->descripcion}}</td>
-            <td><img src="{{ asset('storage'). '/' . $banne->url_img}}" width="25%"  class="img-thumbnail" alt="Imagen de las certificaciones"></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img}}"  class="img-thumbnail" alt="Imagen de las certificaciones" width="200" height="200"></td>
 
             <td>
                 <a href="{{url('dashboard/datosbanner/'. $banne->id.'/edit')}}"><button

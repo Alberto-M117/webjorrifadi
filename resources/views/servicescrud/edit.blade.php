@@ -34,15 +34,15 @@
         <img src="{{ asset('storage'). '/' . $datosservicios->url_icon}}" class="img-thumbnail"
             alt="Icono del servicio">
         <div class="card-body">
-            <input type="file" value="" name="url_icon" id="url_icon" required >
+            <input type="file" value="" name="url_icon" id="url_icon"  >
         </div>
     </div>
 
     <label for="url_img" class="form-label fw-bold text-primary">Imagen:</label>
-    <div class="card" style="width: 30rem;">
-        <img src="{{ asset('storage'). '/' . $datosservicios->url_img}}" class="card-img-top" alt="Imagen del servicio">
+    <div class="container ml-1" >
+        <img src="{{ asset('storage'). '/' . $datosservicios->url_img}}" class="imgcrud img-thumbnail" alt="Imagen del servicio"  width="500" height="500">
         <div class="card-body">
-            <input type="file" value="" name="url_img" id="url_img" required >
+            <input type="file" value="" name="url_img" id="url_img"  >
         </div>
     </div>
 

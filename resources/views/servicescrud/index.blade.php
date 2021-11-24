@@ -25,8 +25,8 @@
             <td>{{$loop->iteration}}</td>
             <td>{{$servicio->nombre_servicio}}</td>
             <td>{{$servicio->descripcion}}</td>
-            <td><img src="{{ asset('storage'). '/' . $servicio->url_icon}}" class="img-thumbnail" alt="Imagen del servicio"></td>
-            <td><img src="{{ asset('storage'). '/' . $servicio->url_img}}" class="img-thumbnail" alt="Imagen del servicio"></td>
+            <td><img src="{{ asset('storage'). '/' . $servicio->url_icon}}" class="img-thumbnail" alt="Icono" width="200" height="200" ></td>
+            <td><img src="{{ asset('storage'). '/' . $servicio->url_img}}" class="img-thumbnail" alt="Imagen del servicio" width="500" height="500"></td>
             <td>
                 <a href="{{url('dashboard/datosservicios/'. $servicio->id.'/edit')}}"><button
                         class="btn btn-sm btn-primary">Editar</button></a>
