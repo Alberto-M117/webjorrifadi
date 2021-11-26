@@ -185,7 +185,7 @@
         <div class="mt-5  flex flex-col items-center">
             <div class="sm:w-2/4 text-center py-4">
                 <h1 class="text-sm text-black-700 font-bold mb-2">
-                    © 2021 Jodifarri Instalación y Proyectos S.A. de C.V. ​Todos los Derechos Reservados.
+                    © 2021 Jorrifadi Instalación y Proyectos S.A. de C.V. ​Todos los Derechos Reservados.
                 </h1>
             </div>
         </div>
