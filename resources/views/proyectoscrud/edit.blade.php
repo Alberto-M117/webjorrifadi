@@ -21,7 +21,7 @@
     <br>
     <label for="desurl_img" class="form-label fw-bold text-primary">Imagen:</label>
     <div class="card" style="width: 30rem;">
-        <img src="{{ asset('storage'). '/' . $datosproyectos->url_img}}" class="card-img-top" alt="Imagen del proyecto" >
+        <img src="{{ asset('storage'). '/' . $datosproyectos->url_img}}" class="card-img-top" alt="Imagen del proyecto" width="500" height="300 >
         <div class="card-body">
             <input type="file" value="" name="url_img" id="url_img"  >
         </div>
