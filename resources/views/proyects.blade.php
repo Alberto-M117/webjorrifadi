@@ -48,7 +48,7 @@
             <div class="flex flex-wrap -mx-4  items-center" data-pg-class-style="column_parent"
                 data-pg-class-style-inline=" items-center">
                 <div class="p-4 w-full lg:order-2 lg:w-6/12">
-                    <img class="text-black" src="storage/{{$proyecto->url_img}}" alt="imagen-ilustrativa">
+                    <img class="text-black rounded-2xl w-500 h-500	 " src="storage/{{$proyecto->url_img}}"  alt="imagen-ilustrativa">
                 </div>
                 <div class="p-4 w-full lg:order-1 lg:w-6/12">
                     <div class="py-4">
@@ -56,13 +56,13 @@
                             {{$proyecto->nombre}}
                         </h5>
                     </div>
-                    <div class="container text-justify">
+                    <div class="container text-justify  ">
 
-                        <ul class="list-disc text-black mt-1 text-xl">
-                            <li>{{$proyecto->servicio1}}</li>
-                            <li>{{$proyecto->servicio2}}</li>
-                            <li>{{$proyecto->servicio3}}</li>
-                            <li>{{$proyecto->servicio4}}</li>
+                        <ul class="list-none  text-black mt-1 text-xl space-y-3">
+                            <p>{{$proyecto->servicio1}}</p>
+                            <p>{{$proyecto->servicio2}}</p>
+                            <p>{{$proyecto->servicio3}}</p>
+                            <p>{{$proyecto->servicio4}}</p>
                         </ul>
                     </div>
                 </div>

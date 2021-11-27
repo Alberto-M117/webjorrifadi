@@ -35,21 +35,21 @@
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="servicio2" class="form-label fw-bold text-primary">Servicio 2:</label>
-            <input type="text" name="servicio2" id="uservicio2" class="form-control" value="" required >
+            <input type="text" name="servicio2" id="uservicio2" class="form-control" value="" >
         </div>
     </div>
     <br>
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="servicio3" class="form-label fw-bold text-primary">Servicio 3:</label>
-            <input type="text" name="servicio3" id="servicio3" class="form-control" value="" required >
+            <input type="text" name="servicio3" id="servicio3" class="form-control" value=""  >
         </div>
     </div>
     <br>
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="servicio4" class="form-label fw-bold text-primary">Servicio 4:</label>
-            <input type="text" name="servicio4" id="servicio4" class="form-control" value="" required >
+            <input type="text" name="servicio4" id="servicio4" class="form-control" value="" >
         </div>
     </div>
     <br>

@@ -23,7 +23,7 @@
     <div class="card" style="width: 30rem;">
         <img src="{{ asset('storage'). '/' . $datosproyectos->url_img}}" class="card-img-top" alt="Imagen del proyecto" >
         <div class="card-body">
-            <input type="file" value="" name="url_img" id="url_img" >
+            <input type="file" value="" name="url_img" id="url_img"  >
         </div>
     </div>
     <br>
@@ -38,7 +38,7 @@
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="servicio2" class="form-label fw-bold text-primary">Servicio 2:</label>
-            <input type="text" name="servicio2" id="servicio2" class="form-control" required
+            <input type="text" name="servicio2" id="servicio2" class="form-control" 
                 value="{{$datosproyectos->servicio2}}">
         </div>
     </div>
@@ -46,7 +46,7 @@
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="servicio3" class="form-label fw-bold text-primary">Servicio 3:</label>
-            <input type="text" name="servicio3" id="servicio3" class="form-control" required
+            <input type="text" name="servicio3" id="servicio3" class="form-control" 
                 value="{{$datosproyectos->servicio3}}">
         </div>
     </div>
@@ -54,7 +54,7 @@
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="servicio4" class="form-label fw-bold text-primary">Servicio 4:</label>
-            <input type="text" name="servicio4" id="servicio4" class="form-control" required
+            <input type="text" name="servicio4" id="servicio4" class="form-control" 
                 value="{{$datosproyectos->servicio4}}">
         </div>
     </div>
