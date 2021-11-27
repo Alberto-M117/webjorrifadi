@@ -48,7 +48,7 @@
             <div class="flex flex-wrap -mx-4  items-center" data-pg-class-style="column_parent"
                 data-pg-class-style-inline=" items-center">
                 <div class="p-4 w-full lg:order-2 lg:w-6/12">
-                    <img class="text-black rounded-2xl w-500 h-500	 " src="storage/{{$proyecto->url_img}}"  alt="imagen-ilustrativa">
+                    <img class="text-black rounded-2xl w-full h-80 object-cover object-center" src="storage/{{$proyecto->url_img}}"  alt="imagen-ilustrativa">
                 </div>
                 <div class="p-4 w-full lg:order-1 lg:w-6/12">
                     <div class="py-4">
